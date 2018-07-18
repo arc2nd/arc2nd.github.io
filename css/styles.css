@@ -3,6 +3,8 @@ img {
 }
 
 header {
+    font-family: "URW Chancery L", cursive;
+    font-size: 5em;
     margin-top: 0.2em;
     background-color: #98ff98;
     border-radius: 0.5em;
@@ -24,7 +26,7 @@ nav ul {
 
 nav li {
     background-color: #ffffff;
-    border-radius: 2em;
+    border-radius: 0.5em;
     list-style-type: none;
     margin: 0.3em;
     padding: 0.4em;
@@ -43,8 +45,8 @@ main {
     padding: 1em;
     border-radius: 1em;
     background-color: #98ff98;
-    border-top: solid 0.2em #009900;
-    border-bottom: solid, 0.2 #009900;
+    border-top: solid 0.2em #999999;
+    border-bottom: solid, 0.2 #999999;
 }
 
 .mobile {
@@ -60,17 +62,31 @@ main {
 }
 
 footer {
+    margin: auto;
+    border-top: solid 0.2em #999999;
+    max-width: 50%;
+    text-align: center;
     font-size: .70em;
     text-align: center;
     margin-top: 2em;
 }
 
-.product_left {
-    border-left: solid 0.2em #009900;
+.product_left_img {
+    float: left;
+    border-radius: 0.5em;
+    border-right: solid 0.2em #999999;
+    padding: 1em;
+    margin-right: 1em;
 }
 
-.product_right {
-    border-right: solid 0.2em #009900;
+.product_left_text {
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.product_right_text {
+    padding: 1em;
+    border-radius: 0.5em;
 }
 
 
