@@ -33,12 +33,14 @@ footer {
 .section {
     width: 100%;
     display: flex;
+/*    border-radius: 0.2em; */
     justify-content: center;
     align-items: center;
+    margin: 0.01em;
 }
 
 .menu {
-/*  background-color: #5995DA; */
+/*    background-color: #e5e5e5; */
 /*  height: 80px; */
     font-size: 1.25em;
     font-weight: bold;
@@ -62,6 +64,7 @@ footer {
     display:block;
     width:100%;
     color:black;
+    border-radius: 0.5em;
 }
 
 
@@ -134,7 +137,11 @@ footer {
     .feature_1,
     .feature_2,
     .feature_3 {
-        width: 50%;
+        width: 49%;
+    }
+    .menu {
+        background-color: #e5e5e5;
+        border-radius: 0.2em;
     }
     .menu ul li {
         float: left;
@@ -154,6 +161,10 @@ footer {
     }
     .header {
         height: 400px;
+    }
+    .menu {
+        background-color: #e5e5e5;
+        border-radius: 0.2em;
     }
     .menu ul li {
         float: left;
