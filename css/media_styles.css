@@ -1,0 +1,161 @@
+body {
+    background-color: #6a895f;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background-color:#e5e5e5;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    width: 100%;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.page {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+/*  background-color: #5995DA; */
+/*  height: 80px; */
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu ul {
+    display: inline;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0.3em;
+/*    padding: 0.4em; */
+}
+
+.menu ul li a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+}
+
+
+.header {
+/*    background-color: #B2D6FF; */
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.content {
+    display: block;
+    flex-wrap: none;
+/*  background-color: #EAEDF0; */
+/*  height: 600px; */
+    padding-bottom:3em;
+}
+
+.sign-up {
+    background-color: #D6E9FE;
+}
+
+.feature_1 {
+    background-color: #F5CF8E;
+    height: 200px; 
+}
+
+.feature_2 {
+    background-color: #F09A9D;
+    height: 200px; 
+}
+
+.feature_3 {
+    background-color: #C8C6FA;
+    height: 200px; 
+}
+
+.product_left_img {
+    display: block;
+/*    float: left; */
+    border-radius: 0.5em;
+/*    border-right: solid 0.2em #999999; */
+    padding: 1em;
+/*    margin-right: 1em; */
+}
+
+.product_right_img {
+/*    float: right; */
+    border-radius: 0.5em;
+/*    border-left: solid 0.2em #999999; */
+    padding: 1em;
+/*    margin-left: 1em; */
+}
+
+.product_left_text {
+    padding: 1em;
+    border-radius: 0.5em;
+    clear: right;
+}
+
+.product_right_text {
+    padding: 1em;
+    border-radius: 0.5em;
+    clear: left;
+}
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    .feature_1,
+    .feature_2,
+    .feature_3 {
+        width: 50%;
+    }
+    .menu ul li {
+        float: left;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .feature_1,
+    .feature_2,
+    .feature_3 {
+        width: 33.3%;
+    }
+    .header {
+        height: 400px;
+    }
+    .menu ul li {
+        float: left;
+    }
+}

@@ -82,6 +82,7 @@ footer {
 }
 
 .product_left_img {
+    display: block;
     float: left;
     border-radius: 0.5em;
     border-right: solid 0.2em #999999;

@@ -1,0 +1,193 @@
+IS430 Web Design
+
+Folder structure
+site_root
+> index.html
+> images
+> scripts
+> css (fonts in stylesheet)
+> media (videos or music)
+> template
+
+template looks like:
+template/template.html
+
+semantic html5 elements
+define <header></header>, <nav></nav>, <main></main>, <footer></footer>
+Class just showed manual templating. copy and paste and change and save as...
+
+
+<a href="tel:+13106941191>Call us</a>
+
+<div id="div_id">
+    <span>Div text goes in here</span>
+</div>
+
+
+
+
+
+
+
+responsive design
+
+using media query features
+
+in css:
+/* media query to pull css for each environment */
+	HTML Content
+	    media queries
+	   	    tablet css
+			    tablet website
+		    desktop css
+			    destktop site
+		    mobile css
+			    mobile site
+
+
+/* mobile style */
+@media only screen and (max-width: 400px) 
+{
+    body 
+    {
+        background-color: #4B0082;
+    }
+}
+
+/* tablet style */
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{
+    body 
+    {
+        background-color: #000000;
+    }
+}
+
+/* desktop style */
+@media only screen and (min-width: 961)
+{
+    body
+    {
+        background-color: #800080;
+    }
+}
+
+@media print
+{
+    body
+    {
+        font-size: 12pt;
+        line-height: 1.2;
+    }
+}
+
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 400px)
+    and (resolution: 150dpi)
+{
+    body {line-height: 1.4; }
+}
+
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' charset='utf-8'>
+<div class='page'>
+<div class='section menu'></div>
+<div class='section header'>
+    <img src=images/my_header.jpg>
+</div>
+
+<div class='section content'>
+    <img src=images/my_content.jpg>
+</div>
+
+<div class='section signup'>
+    <img src=images/my_signup.jpg>
+</div>
+
+<div class='section feature_1'>
+    <img src=images/my_feature_1.jpg>
+</div>
+
+<div class='section feature_2'>
+    <img src=images/my_feature_2.jpg>
+</div>
+
+<div class='section feature_3'>
+    <img src=images/my_feature_3.jpg>
+</div>
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu {
+    background-color: #5995da; /* cyan blue */
+    height: 80px;
+}
+.section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    background-color: #b2d6ff;
+}
+.content {
+    background-color: gray;
+    height: 600px;
+}
+.signup {
+    background-color: #d6e9fe;
+}
+.feature_1 {
+    background-color: #f5cf8e;
+}
+.feature_2 {
+    background-color: #f09a9d;
+}
+.feature_3 {
+    background-color: #c8c6fa;
+}
+
+/* tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .signup, 
+    .feature_1, 
+    .feature_2, 
+    .feature_3 {
+        width: 50%;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 961) {
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }, 
+    .signup {
+        height: 200px;
+        order: 1;
+    }, 
+    .content {
+        order: 2;
+    },  
+    .feature-1, 
+    .feature-2,
+    .feature-3 {
+        width: 33.3%;
+    }
+    .header {
+        height: 400px;
+    }
+
+/* mobile */
+@media only screen and (max-width: 400px)
+
+
+
+
+
