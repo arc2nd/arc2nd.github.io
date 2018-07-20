@@ -1,5 +1,5 @@
 body {
-    background-color: #6a895f;
+    background-color: #8b8589;
 }
 
 
@@ -80,6 +80,10 @@ footer {
 /*  background-color: #EAEDF0; */
 /*  height: 600px; */
     padding-bottom:3em;
+    text-align: justify;
+    margin-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .sign-up {
@@ -150,6 +154,9 @@ footer {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+    body {
+        background-color: #6a895f;
+    }
     .page {
         width: 960px;
         margin: 0 auto;
