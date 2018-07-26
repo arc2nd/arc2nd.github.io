@@ -1,0 +1,55 @@
+illustration class
+
+with SVG
+<img class='illustration' src=path/to/image.svg style='max-width:400px'>
+
+.illustration {
+    width: 100%;
+}
+
+with PNG
+
+<div class='illustration'>
+<img src=path/image-small.png' srcset='path/image-small.png 1x', 
+                               path/image-big.png 2x' 
+    style='max-width:400px'>
+</div>
+
+.illustration img {
+    width: 100%;
+    display: block;
+}
+
+
+
+<div class='photo'>
+    <img src='path/to/photo-small.jpg' srcset='path/to/photo-big.jpg 2000w, path/to/photo-small.jpg 1000w' sizes='(min-width: 960px) 960px, 1000vw'>
+</div>
+
+.header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+
+<picture>
+<source media=(min-width: 401px)' srcset='path/photo-big.jpg' >
+<source media=(max-width: 400px)' srcset='path/photo-tall.jpg'>
+<img src='path/photo-small.jpg'>
+</picture>
+
+
+
+forms
+
+<form class='contactusform', action='' method='get'>
+<label for='from'>Frum:</label>
+<input id='from' name='from' type='text' placeholder='you@email.com'>
+<input>
+<input>
+</form>
+
+.contactusform(
+    background-color
+}
