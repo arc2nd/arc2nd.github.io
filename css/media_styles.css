@@ -1,3 +1,4 @@
+/* set body styles */
 body {
     background-color: #8b8589;
 }
@@ -7,6 +8,7 @@ img {
     max-width: 100%;
 }
 
+/* set footer styles */
 footer {
     background-color:#e5e5e5;
     text-align:center;
@@ -15,21 +17,21 @@ footer {
     width: 100%;
 }
 
-
-
+/* set global styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* page class styles */
 .page {
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* section class styles: for products */
 .section {
     width: 100%;
     display: flex;
@@ -39,6 +41,7 @@ footer {
     margin: 0.01em;
 }
 
+/* menu class styles */
 .menu {
 /*    background-color: #e5e5e5; */
 /*  height: 80px; */
@@ -67,13 +70,14 @@ footer {
     border-radius: 0.5em;
 }
 
-
+/* header class styles */
 .header {
 /*    background-color: #B2D6FF; */
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
+/* content class styles */
 .content {
     display: block;
     flex-wrap: none;
@@ -86,10 +90,13 @@ footer {
     margin-right: 10%;
 }
 
+/* sign-up class styles */
 .sign-up {
     background-color: #D6E9FE;
 }
 
+/* various feature styles */
+/*      for the product page items */
 .feature_1 {
     background-color: #F5CF8E;
     height: 200px; 
@@ -105,6 +112,39 @@ footer {
     height: 200px; 
 }
 
+/*      for the index page items */
+.feature_4 {
+    background-color: #333333;
+    height: 200px;
+}
+
+.feature_5 {
+    background-color: #444444;
+    height: 200px;
+}
+
+/* employee class related styles */
+.employee {
+    display: block;
+    height: 200px;
+    text-align: center;
+    width: 49%;
+}
+
+.person {
+    height: 150px;
+    box-shadow: 10px 4px 15px #222222;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/* product class related styles */
 .product_left_img {
     display: block;
 /*    float: left; */
@@ -134,6 +174,7 @@ footer {
     clear: left;
 }
 
+/* contact class styles */
 .contact {
     width: 80%;
     margin: auto;
@@ -143,6 +184,7 @@ footer {
     flex-direction: column;
 }
 
+/* label related styles: mainly for contact page */
 label {
     text-align: right;
 }
@@ -171,6 +213,7 @@ button {
 .button_row {
 }
 
+/* mobile and desktop class styles: to display or hide as appropriate */
 .mobile {
     display: inline;
 }
@@ -184,6 +227,9 @@ button {
     .feature_2,
     .feature_3 {
         width: 49%;
+    }
+    .employee {
+        width: 33%;
     }
     .menu {
         background-color: #e5e5e5;
@@ -229,6 +275,9 @@ button {
     .feature_2,
     .feature_3 {
         width: 33.3%;
+    }
+    .employee {
+        width: 24%;
     }
     .header {
         height: 400px;
