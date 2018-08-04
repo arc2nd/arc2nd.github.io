@@ -6,6 +6,7 @@ body {
 
 img {
     max-width: 100%;
+    margin-bottom: 1em;
 }
 
 /* set footer styles */
@@ -146,6 +147,7 @@ footer {
     height: 150px;
     box-shadow: 10px 4px 15px #222222;
     border-radius: 50%;
+    margin-bottom: 0em;
 }
 
 /* style for embedded video */
@@ -251,7 +253,7 @@ button {
         width: 49%;
     }
     .employee {
-        width: 33%;
+        width: 24%;
     }
     .menu {
         background-color: #e5e5e5;
@@ -299,7 +301,7 @@ button {
         width: 32%;
     }
     .employee {
-        width: 24%;
+        width: 19%;
     }
     .header {
         height: 400px;
