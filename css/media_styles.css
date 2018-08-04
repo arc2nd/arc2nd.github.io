@@ -136,6 +136,7 @@ footer {
     box-shadow: 10px 4px 15px #222222;
 }
 
+/* style for embedded video */
 .video {
     margin-left: auto;
     margin-right: auto;
@@ -143,6 +144,15 @@ footer {
     margin-bottom: 2em;
 }
 
+/* style for social media icons */
+.social {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social_image {
+    height: 30px;
+}
 
 /* product class related styles */
 .product_left_img {
