@@ -169,21 +169,19 @@ footer {
 }
 
 /* product class related styles */
-.product_left_img {
+.product_img {
     display: block;
-/*    float: left; */
+    /* width: 175px; 
+    width: 100%; */
     border-radius: 0.5em;
-/*    border-right: solid 0.2em #999999; */
     padding: 1em;
-/*    margin-right: 1em; */
+    /* height: 175px; 
+    height: 100%; */
 }
 
-.product_right_img {
-/*    float: right; */
-    border-radius: 0.5em;
-/*    border-left: solid 0.2em #999999; */
+.product_text {
     padding: 1em;
-/*    margin-left: 1em; */
+    width: 50%;
 }
 
 .product_left_text {
